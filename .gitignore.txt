@@ -1,0 +1,33 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environment
+.env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore model files (too large for GitHub)
+*.pkl
+*.h5
+*.pt
+*.onnx
+
+# Ignore logs
+*.log
+
+# Ignore compiled files
+*.exe
+*.dll
+*.out
+*.o
